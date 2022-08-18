@@ -1,0 +1,36 @@
+.masthead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.masthead__menu-and-search {
+    display: flex;
+}
+
+.masthead__actions {
+    display: flex;
+    grid-column-start: 3;
+}
+
+.masthead__technologies {
+    display: flex;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+.masthead__date {
+    display: flex;
+    grid-row-start: 3;
+}
+
+.masthead__logo {
+    display: flex;
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+.masthead__paper {
+    display: flex;
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
