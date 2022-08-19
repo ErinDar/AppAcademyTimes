@@ -1,1 +1,9 @@
-/* Your code here */
+.navigation {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    margin: 10px;
+}

@@ -1,36 +1,97 @@
+/* Header */
 .masthead {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    /* padding-top: 10px; */
 }
 
+/* Hamburger Menu and Search Icon */
 .masthead__menu-and-search {
     display: flex;
+    padding-left: 20px;
+    align-items: center;
 }
 
+.icons {
+    font-size: 11px;
+    /* line 13 and 14 are the same just different syntax */
+    /* padding: 7px 9px 7px 9px; */
+    padding: 7px 9px;
+    position: relative;
+}
+
+.icons:hover {
+    background-color: #f7f7f5;
+}
+
+/* Subscribe and Log In Buttons */
 .masthead__actions {
     display: flex;
     grid-column-start: 3;
+    justify-content: flex-end;
+    padding: 10px 0;
 }
 
+/* Technologies */
 .masthead__technologies {
     display: flex;
     grid-row-start: 2;
     grid-column-start: 2;
+    justify-content: center;
 }
 
+.technology-list {
+    border-top: 1px solid #e2e2e2;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    background-color: white;
+    position: relative;
+    top: 1px;
+    color: #6f6f6f;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.technology_lang {
+    margin: 0 4px;
+}
+
+/* Date */
 .masthead__date {
     display: flex;
     grid-row-start: 3;
+    font-size: 11px;
+    align-items: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    padding-bottom: 11px;
 }
 
+/* Logo */
 .masthead__logo {
-    display: flex;
     grid-row-start: 3;
     grid-column-start: 2;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    padding-bottom: 11px;
 }
 
+/* Paper */
 .masthead__paper {
     display: flex;
     grid-row-start: 3;
     grid-column-start: 3;
+    font-size: 11px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+    padding-bottom: 11px;
+}
+
+.fa-newspaper {
+    height: 14px;
+    width: 14px;
 }
